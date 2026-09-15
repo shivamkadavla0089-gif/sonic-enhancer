@@ -1,0 +1,3 @@
+- [ ] Build one-page SIH26052 speech enhancement workspace with upload/input and result sections only
+- [ ] Add realistic file validation, local audio preview, replace/remove, and backend-ready enhance flow
+- [ ] Verify the page at desktop and mobile sizes without fake model output
