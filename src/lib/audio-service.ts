@@ -15,7 +15,7 @@ export class EnhancementError extends Error {
 }
 
 export async function enhanceSpeech(file: File): Promise<Blob> {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL?.trim();
+  const backendUrl = import.meta.env["VITE_BACKEND_URL"]?.trim();
 
   if (!backendUrl) {
     throw new EnhancementError(
